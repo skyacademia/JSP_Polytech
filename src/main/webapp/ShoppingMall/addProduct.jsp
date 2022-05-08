@@ -26,7 +26,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">상품명</label>
 				<div class="col-sm-3">
-					<input type="text" id="neme" name="name" class="form-control">
+					<input type="text" id="name" name="name" class="form-control">
 				</div>
 			</div>
 			<div class="form-group row">
@@ -56,7 +56,7 @@
 			<div class="form-group row">
 				<label class="col-sm-2">재고</label>
 				<div class="col-sm-3">
-					<input type="text" id="unitInStock" name="unitInStock" class="form-control">
+					<input type="text" id="unitsInStock" name="unitInStock" class="form-control">
 				</div>
 			</div>			
 			<div class="form-group row">

@@ -28,7 +28,7 @@
 				
 			%>
 			<div class="col-md-4">
-                            <img src="./resources/images/<%=product.getFilename()%>" style="width:80%"/>
+                            <img src="./resources/image/<%=product.getFilename()%>" style="width:80%"/>
                             <h3><%=product.getPname() %> </h3>
                             <p><%=product.getDescription() %>
                             <p><%=product.getUnitPrice()%>원

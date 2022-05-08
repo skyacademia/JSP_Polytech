@@ -13,7 +13,7 @@
 		request.setCharacterEncoding("UTF-8");
                 
         String filename = "";
-        String realFolder = "C:/Users/nc404/Desktop/작업/002_Programming/1_Java/JSP_Polytech/src/main/webapp/shoppingMall/resources/images/";
+        String realFolder = "C:/Users/nc404/Desktop/작업/002_Programming/1_Java/JSP_Polytech/src/main/webapp/shoppingMall/resources/image/";
         int maxSize = 5*1024*1024;
         String encType="utf-8";
         
@@ -45,10 +45,10 @@
 			stock=Long.valueOf(unitsInStock);
 		}
 		
-                Enumeration files = multi.getFileNames();
-                String fname = (String) files.nextElement();
-                String fileName = multi.getFilesystemName(fname);
-                
+        Enumeration files = multi.getFileNames();
+        String fname = (String) files.nextElement();
+        String fileName = multi.getFilesystemName(fname);
+        
 		ProductRepository set = ProductRepository.getInstance();
 		Product newProduct = new Product();
 		newProduct.setProductId(productId);
